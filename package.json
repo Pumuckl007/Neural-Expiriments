@@ -1,0 +1,8 @@
+{
+  "name": "NeuralExpiriments",
+  "version": "1.0.0",
+  "scripts": {
+    "make": "rollup -c -o ./bin/rolledup.js",
+    "watch": "rollup -i ./src/index.js  -w -o ./bin/rolledup.js"
+  }
+}
